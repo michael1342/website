@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slides {
+    width: 100%;
+    border: none;
+    margin-left: -4px;
+    box-shadow: none;
+    background-color: rgba(245, 230, 212, 0.404);
+}
+
+.tub {
+   gap: 1rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider section {
+    display: none;
+   
+}
+section {
+   background-color: rgba(245, 230, 212, 0.404);
+}
+
+ section.displaySlide {
+    display: block;
+}
+ 
+.prev {
+   font-size: 2rem; 
+   padding: 0.5rem;
+   margin-left: 2rem;
+   margin-right: 4px;
+}
+.next {
+    font-size: 2rem; 
+    padding: 0.5rem;
+}
+
+.hero {
+    background-image: url(img/istockphoto14341737141024x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*  padding: 15rem; */
+    margin-left: -4px;
+    margin-right: -4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.front {
+    padding: 10rem;
+}
+
+ .sun {
+    display: flex;
+    justify-content: center;
+    margin-left: -4px;
+    margin-right: -4px;
+    color: aliceblue;
+    text-shadow: 3px 3px 1px rgb(3, 3, 43),
+    6px 6px 4px  aliceblue; 
+    background-color: rgb(3, 3, 43);
+    padding: 14px;
+}
+
+.none {
+    display: none;
+}
+ 
+/* nav {
+    position: sticky;
+    background-color: bisque;
+    padding-top: 3rem;
+    box-shadow: 0 0 4px 1px #333;
+} */
+
+h1 {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    margin-left: -4px;
+    margin-top: 14rem;
+    background-color: black;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+li a:any-link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: whitesmoke;
+    margin: 1rem;
+    box-shadow: 0 1px 4px 1px #333;
+}
+
+.hero2 {
+   margin-left: -2px;
+   margin-right: -2px;
+   border: 1px solid whitesmoke;
+   box-shadow: 0 0 8px 1px #333;
+   padding-bottom: 1rem;
+   margin-bottom: 4rem;
+   width: 100%;
+}
+
+
+
+.bold {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.slu {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.furniture {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.tub {
+    margin-top: 1rem;
+   margin-left: 4rem;
+}
+.bed {
+    margin-top: -1rem;
+   margin-left: 14rem;
+}
+
+button {
+    bottom: 0;
+    margin-top: 2rem;
+}
+
+hr {
+    margin-top: 4rem;
+}
+
+.btn1 {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(72, 214, 214, 0.842);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    box-shadow: 0 0 3px 6px whitesmoke;
+    margin-bottom: 1rem;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    padding: 1.5rem;
+    background-color: rgb(3, 3, 43);
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-left: -4px;
+    margin-right: px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 110%;
+}
+
+.name {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #c9c7c7;
+   margin-bottom: 1rem;
+}
+.tel {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #c9c7c7;
+   margin-bottom: 1rem;
+}
+.email {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #c9c7c7;
+   margin-bottom: 1rem;
+}
+.Address {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #c9c7c7;
+   margin-bottom: 1rem;
+}
+
+.textarea {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+body {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* footer {
+    margin-left: -4px;
+    margin-right: -4px;
+} */
+
+h2 {
+    text-shadow: 2px 2px 2px aliceblue,
+                4px 4px 4px  black;
+}
+
+/* nav {
+    display: none;
+} */
+
+.btn2 {
+    padding: 10px;
+    padding-right: 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-image: linear-gradient(red, aliceblue);
+    border: none;
+    box-shadow: 0 0 7px 4px #333;
+}
+.social {
+    display: flex;
+    gap: 4px;
+}
+/* FOR SALE */
+
+.sale {
+    padding: 1.5rem;
+    background-color: rgb(3, 3, 43);
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-left: -4px;
+    margin-right: px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 110%;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  /*  MEDIUM DEVICE */
+@media screen and (min-width: 768px) {
+    body {
+        height: auto;
+    }
+    .hero{
+        padding: 14rem;
+    }
+    .front {
+        display: none;
+    }
+    .hero2 {
+        width: 50%;
+        padding-bottom: 14rem;
+        width: 100%;
+        margin-bottom: 10rem;
+     }
+     .img {
+        width: 100%;
+        height: 10%;
+     }
+     .icons {
+        display: none;
+     }
+     .one,
+     .two,
+     .three,
+     .four {
+        margin-bottom: 2rem;
+     }
+    /*  FOR SALE */
+
+
+    /* CONTACT US */
+    .name {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #c9c7c7;
+        margin-bottom: 1.5rem;
+     }
+     .tel {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #c9c7c7;
+        margin-bottom: 1.5rem;
+     }
+     .email {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #c9c7c7;
+        margin-bottom: 1.5rem;
+     }
+     .Address {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #c9c7c7;
+        margin-bottom: 1.5rem;
+     }
+     
+     .textarea {
+         margin-top: 3rem;
+         width: 100%;
+         padding: 2rem;
+         border-bottom: 1px solid;
+     }
+}
+
+    /* LARGE DEVICE */
+@media screen and (min-width: 1200px) {
+    body {
+       height: auto;
+       margin-right: -4px;
+    }
+    footer {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(3, 3, 43);
+        margin-left: -4px;
+        margin-right: -4;
+        width: 100%;
+    }
+    .hero2 {
+        margin-bottom: 3rem;
+        
+    }
+    li a:any-link {
+        background-image: linear-gradient(red, aliceblue);
+        color: black;
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
+    li a:hover {
+        background-image: linear-gradient(whitesmoke, blue);
+    }
+    .intro {
+        display: none;
+    }
+    .shine {
+        color: aliceblue;
+        text-shadow: 4px 4px 1px rgb(3, 3, 43),
+        8px 8px 4px  aliceblue;
+    }
+    .img {
+        width: 50%;
+       
+    }
+    .height {
+        height: 50%;
+    }
+    .none {
+        display: inline;
+        margin-top: 1rem;
+    }
+   /*  CONTACT US
+ */
+    .name,
+    .email,
+    .tel,
+    .Address {
+        width: 50%;
+    }
+    .pad {
+        padding: 1rem;
+    }
+    .large {
+        color: aliceblue;
+        text-shadow: 4px 4px 1px rgb(3, 3, 43),
+        8px 8px 4px  aliceblue;
+    }
+    /* SALE */
+    .sale {
+        display: none;
+    }
+    .largesale {
+        color: aliceblue;
+        text-shadow: 3px 3px 1px rgb(3, 3, 43),
+        8px 8px 4px  aliceblue;
+    }
+}
